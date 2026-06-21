@@ -250,6 +250,16 @@ div[data-baseweb="input"] > div, div[data-baseweb="select"] > div {
 
 div[data-testid="stTextInput"] input {
     padding: 0.8rem 0.95rem;
+    color: #0f172a !important;
+    caret-color: #0f172a !important;
+    -webkit-text-fill-color: #0f172a !important;
+    background-color: rgba(255, 255, 255, 0.98) !important;
+}
+
+div[data-testid="stTextInput"] input::placeholder {
+    color: #64748b !important;
+    -webkit-text-fill-color: #64748b !important;
+    opacity: 1 !important;
 }
 
 div[data-testid="stSelectbox"] {
