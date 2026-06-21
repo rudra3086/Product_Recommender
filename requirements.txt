@@ -1,0 +1,7 @@
+streamlit
+pandas
+numpy
+faiss-cpu
+rapidfuzz
+huggingface_hub
+Pillow
