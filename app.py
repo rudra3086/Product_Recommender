@@ -248,6 +248,29 @@ div[data-baseweb="input"] > div, div[data-baseweb="select"] > div {
     border-color: rgba(15, 23, 42, 0.10) !important;
 }
 
+div[data-testid="stSelectbox"] [data-baseweb="select"] {
+    color: #0f172a !important;
+}
+
+div[data-testid="stSelectbox"] [data-baseweb="select"] * {
+    color: #0f172a !important;
+}
+
+div[data-testid="stSelectbox"] [data-baseweb="select"] input {
+    color: #0f172a !important;
+    -webkit-text-fill-color: #0f172a !important;
+    caret-color: #0f172a !important;
+}
+
+div[data-testid="stSelectbox"] [role="option"],
+div[data-testid="stSelectbox"] [role="option"] * {
+    color: #0f172a !important;
+}
+
+div[data-testid="stSelectbox"] svg {
+    fill: #475569 !important;
+}
+
 div[data-testid="stTextInput"] input {
     padding: 0.8rem 0.95rem;
     color: #0f172a !important;
@@ -264,6 +287,10 @@ div[data-testid="stTextInput"] input::placeholder {
 
 div[data-testid="stSelectbox"] {
     margin-top: 0.25rem;
+}
+
+div[data-testid="stSelectbox"] > div > div {
+    color: #0f172a !important;
 }
 
 hr {
